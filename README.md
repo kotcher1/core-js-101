@@ -1,27 +1,24 @@
-# Core JS 101
+# Core JS
+Учебная задача по JS
 
-## Task
-The task is to implement functions on different Core JS topics. There are nine modules with different tasks. Each module consists of tasks for specified topic:
+*(В рамках курса Frontend-Developer в RollingScopesSchool)*
 
-1. Strings
-2. Numbers
-3. Arrays
-4. Date
-5. Regexp
-6. Objects
-7. Promises
-8. Conditions and Loops
-9. Functions and Closures
+## Задача 
+Задача — реализовать функции по разным темам Core JS. Есть девять модулей с разными задачами. Каждый модуль состоит из заданий по заданной теме:
 
-**Active usage of [documentation](https://developer.mozilla.org/en-US/) is strongly recommended!**
+1. Струны
+2. Числа
+3. Массивы
+4. Дата
+5. Регулярное выражение
+6. Объекты
+7. Обещания
+8. Условия и циклы
+9. Функции и замыкания
 
-## Prepare and test
-1. Install Node.js
-2. Fork this repository: https://github.com/mikhama/core-js-101/
-3. Clone your newly created repo: `https://github.com/<%your_github_username%>/core-js-101/`
-4. Go to folder `core-js-101`
-5. To install all dependencies use `npm install`
-6. Each task is usually a regular function:
+**Настоятельно рекомендуется активно использовать [документацию](https://developer.mozilla.org/en-US/)!**
+
+Каждая задача обычно представляет собой обычную функцию:
     ```javascript
       /**
        * Returns the result of concatenation of two strings.
@@ -39,27 +36,21 @@ The task is to implement functions on different Core JS topics. There are nine m
         throw new Error('Not implemented');
       }
     ```
-    Read the task description in the comment above the function. Try to understand the idea. You can see the tests prepared if you don't understand it.
-7. Write your code in `task/*.js`.
+    Описание задачи находится в комментарии над функцией. Если задача непонятна, можно изучить подготовленные тесты.
 
-    Remove the throwing error line from function body:
+    Далее необходимо удалить строку ошибки броска из тела функции:
     ```javascript
         throw new Error('Not implemented'); 
     ```
-    Implement the function by any way and verify your solution by running tests until the failed test become passed (green).
-8. Run `npm test` in command line. If everything is OK you can try to resolve the next task.
-9. You will see the number of passing and pending tests: `101` of passing tests is equal to `100` in score.
+    После реализации функции можно проверить решение запустив тесты, пока неудачный тест не будет пройден (зеленый).
 
-## Submit to [rs app](https://app.rs.school/)
-1. Open [rs app](https://app.rs.school/) and login
-2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
-3. Select your task (Core JS 101)
-4. Press submit button and enjoy
 
-## Notes
-* We recommend you to use nodejs of version 10 or lower. If you using any of features that does not supported by node `v10`, score won't be submitted.
-* Please be sure that each of your test in limit of 30sec.
-* You will get 0 (zero) if you have any eslint's errors or warnings.
+## Как тестировать
+- Запустить `npm install` в терминале
+- Запустить `npm test` в терминале
+- Вы сможете увидеть количество пройденных и провалившихся тестов
 
-___
-The task based on https://github.com/rolling-scopes-school/js-assignments.
+### Заметки
+1. Рекомендуется использовать nodejs версии 10 или ниже.
+2. Рекомендуется реализовать функцию так, чтоб каждый из тестов не превышал 30 секунд.
+
